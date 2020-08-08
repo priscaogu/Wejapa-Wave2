@@ -1,11 +1,10 @@
-elements = {'hydrogen': {'number': 1, 'weight': 1.00794, 'symbol': 'H'},
-            'helium': {'number': 2, 'weight': 4.002602, 'symbol': 'He'}}
+elements = {'hydrogen': {'number': 1, 'weight': 1.00794, 'symbol': 'H',"is_noble_gas":"False"},
+            'helium': {'number': 2, 'weight': 4.002602, 'symbol': 'He',"is_noble_gas":"True"}}
 
 
 
-#To insert the "is_noble_gas" I had to add a representation for it
-elements["hydrogen"]["is_noble_gas"]="False"
-elements["helium"]["is_noble_gas"]="True"
+#key "is_noble_gas" in
+
 print(elements)
 
 print(elements['hydrogen']['is_noble_gas'])
